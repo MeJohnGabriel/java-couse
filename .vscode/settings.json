@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "01-Primitive-Variables-Scanner",
-    "02-Arithmetic-Operators"
+    "01-Primitives-Scanner",
+    "02-Arithmetic-Operators-Conditionals"
   ]
 }
