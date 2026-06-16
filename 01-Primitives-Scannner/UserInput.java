@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class userInput {
+public class UserInput {
     public static void main(String[] args) {
         
         double width = 0;

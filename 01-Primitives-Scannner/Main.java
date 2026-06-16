@@ -1,5 +1,3 @@
-package src;
-
 public class Main {
 
     //THIS IS MY JAVA PROGRAM(NOT REALLY) 
