@@ -47,14 +47,65 @@ public class WhileLoop {
     // for(int i = 0; i < max; i++){
     //     System.out.print("You loop has " + i + " iterations.");
     // }
+    // Scanner scanner = new Scanner(System.in);
+    // System.out.print("How many seconds?: ");
+    // int start = scanner.nextInt();
+
+    // for(int i = start; i > 0; i--){
+    //     System.out.print( i + " seconds left...\n");
+    //     Thread.sleep(1000);
+    // }    
+
+    // STUDY--------------(LOOPS)BREAK & CONTINUE-----------------------
+        // System.out.println("-----BREAK--------");    
+        // for(int i =0; i < 10; i++){
+        //     if (i == 5) {
+        //         break;
+        //     }
+
+        //     System.out.print(i + " ");
+        // }
+        // System.out.println("\n-----CONTINUE--------");
+        // for(int i =0; i < 10; i++){
+        //     if (i == 5) {
+        //         continue;
+        //     }
+
+        //     System.out.print(i + " ");
+        // }
+
+
+    // STUDY--------------NESTED LOOPS-----------------------
+    // for(int o = 0; o <=3 ; o++){    
+    //     for(int i = 0 ;i <=9; i++){
+    //         System.out.print(i + " ");
+    //     }
+    //     System.out.println("");
+    // }
+
     Scanner scanner = new Scanner(System.in);
-    System.out.print("How many seconds?: ");
-    int start = scanner.nextInt();
 
-    for(int i = start; i > 0; i--){
-        System.out.print( i + " seconds left...\n");
-        Thread.sleep(1000);
-    }    
+    int rows;
+    int columns;
+    char symbol;
+    
+    System.out.print("Enter numbner of Rows:");
+    rows = scanner.nextInt();
 
+    System.out.print("Enter the number of columns: ");
+    columns = scanner.nextInt();
+
+    System.out.print("Enter the symbol: ");
+    symbol = scanner.next().charAt(0);
+
+
+    for(int j = 0; j < rows; j++){
+        for(int i = 0 ;i < columns; i++){
+        System.out.print(symbol);
+        }
+        System.out.println();
+    }
+
+    scanner.close();
 }
 }
